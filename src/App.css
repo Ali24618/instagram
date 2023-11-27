@@ -1,38 +1,346 @@
-.App {
+.ali{
+  position: absolute;
+  left: 400px;
+}
+.boxname{
+  position: absolute;
+}
+.son{
+  position: absolute;
+  top: 280px;
+  left: -12px;
+}
+.lev{
+  position: absolute;
+  left: 330px;
+}
+.sel{
+  position: absolute;
+  top: 690px;
+}
+.set{
+  position: absolute;
+  top: 690px;
+  left: 50px;
+}
+.sew{
+  position: absolute;
+  top: 690px;
+  left: 100px;
+}
+.sep{
+  position: absolute;
+  top: 690px;
+  left: 380px;
+}
+.dyv{
+  position: absolute;
+  top: 725px;
+}
+.seq{
+  margin-left: 860px;
+  background-color: white;
+  height: 35px;
+}
+.fly{
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.sez{
+  margin-left: 400px;
+  background-color: white;
+}
+.wet{
+  position: absolute;
+  left: 350px;
+  top: 0px;
+}
+.wes{
+  position: absolute;
+  left: 400px;
+  top: 0px;
+  color: #282c34;
+}
+.que{
+  text-align: center;
+}
+.tekst{
+  margin-top: 10px;
+}
+.brad{
+  position: absolute;
+  left: 0px;
+}
+.brat{
+  position: absolute;
+  left: 150px;
+}
+.bart{
+  position: absolute;
+  left: 296px;
+}
+.pitt{
+  position: absolute;
+  left: 0px;
+  top: 440px;
+}
+.club{
+  position: absolute;
+  left: 150px;
+  top: 440px;
+}
+.pisk{
+  position: absolute;
+  left: 296px;
+  top: 440px;
+}
+.sentr{
+  position: absolute;
+  left: 45px;
+}
+.rew{
+  position: absolute;
+  left: 400px;
+  top: 0px;
+}
+.leo{
+  position: absolute;
+  left: -12px;
+  top: 50px;
+}
+.vniz{
+  position: absolute;
+  top: 400px;
+}
+.srad{
+  position: absolute;
+  left: 0px;
+  top: 60px;
+}
+.srat{
+  position: absolute;
+  left: 150px;
+  top: 60px;
+}
+.sart{
+  position: absolute;
+  left: 296px;
+  top: 60px;
+}
+.sitt{
+  position: absolute;
+  left: 0px;
+  top: 210px;
+}
+.slub{
+  position: absolute;
+  left: 150px;
+  top: 210px;
+}
+.disk{
+  position: absolute;
+  left: 296px;
+  top: 210px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.alay{
+  position: absolute;
+  left: 0px;
+  top: 360px;
+}
+.blay{
+  position: absolute;
+  left: 150px;
+  top: 360px;
+}
+.clay{
+  position: absolute;
+  left: 296px;
+  top: 360px;
+}
+.dlay{
+  position: absolute;
+  left: 0px;
+  top: 510px;
+}
+.elay{
+  position: absolute;
+  left: 150px;
+  top: 510px;
+}
+.flay{
+  position: absolute;
+  left: 296px;
+  top: 510px;
+}
+.drad{
+  position: absolute;
+  left: 0px;
+  top: 590px;
+}
+.drat{
+  position: absolute;
+  left: 150px;
+  top: 590px;
+}
+.dart{
+  position: absolute;
+  left: 296px;
+  top: 590px;
+}
+.qwe{
+  position: absolute;
+  left: 410px;
+}
+.fer{
+  position: absolute;
+  left: 85px;
+}
+.aot{
+  position: absolute;
+  left: 55px;
+  top: 40px;
+}
+.wni{
+  margin-top: 50px;
+}
+.fre{
+  border-radius: 100px;
+}
+.gym{
+  position: absolute;
+  left: 340px;
+}
+.dym{
+  position: absolute;
+  left: 400px;
+}
+.ger{
+  position: absolute;
+  left: -12px;
+  top: 79px;
+}
+.ges{
+  position: absolute;
+  left: -12px;
+  top: 379px;
+}
+.gpt{
+  margin-left: 70px;
+  position: relative;
+  top: 100px;
+  height: 300px;
+  border-radius: 20px;
+}
+.qaz{
+  position: relative;
+  margin-left: 70px;
+  top: 120px;
+  border-radius: 20px;
+}
+.block{
+  height: 90px;
+  
+}
+.wniz{
+  position: absolute;
+  top: 300px;
+}
+.dev{
+  margin-left: 20px;
+}
+.sqw{
+  margin-left: -12px;
+}
+.ila{
+  position: absolute;
+  left: 400px;
+}
+.zxc{
+  margin-left: 5px;
+}
+.zxv{
+  margin-left: 5px;
+}
+.zxb{
+  margin-left: 5px;
+}
+.sld{
+  position: absolute;
+  left: 270px;
+}
+.law{
+    overflow:scroll;
+}
+.bix{
+  height: 115px;
+}
+.mod{
+  position: absolute;
+  left: -60px;
+  top: 180px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 24px;
 }
 
-.App-link {
-  color: #61dafb;
+.switch input {display:none;}
+
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  left: 3px;
+  top: 2px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+.soul{
+  text-decoration: none; 
+  color: black;
+} 
+.elo{
+  position: absolute;
+  left: 400px;
 }
