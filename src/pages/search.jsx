@@ -32,10 +32,10 @@ const Search = () => {
 
             <div className="container">
                 <div className="row">
-                    <div className="col-4 fixed-bottom border border-dark sez">
+                    <div className="col-md-4 fixed-bottom border border-dark sez">
                         <Navbar />
                     </div>
-                    <div className="col-4 border border-dark elo">
+                    <div className="col-md-4 border border-dark elo">
                         <div className="row">
                             <div class="input-group mb-3">
                                 <span onClick={Click} class="input-group-text"><i class="fa-solid fa-magnifying-glass"></i></span>
@@ -68,7 +68,7 @@ const Search = () => {
                                     {
                                         poisk.map((a) =>
                                             <>
-                                                <div className="col-12">
+                                                <div className="col-md-12">
                                                     <div className="row">
                                                         <div className="col-3"><img className="rounded-circle mt-1" src={a.foto} width={75} height={75} /></div>
                                                         <div className="col-5 mt-3"><b>{a.name}</b><p>{a.nickname}</p></div>
@@ -84,7 +84,7 @@ const Search = () => {
                                     {
                                         users.map((a) =>
                                             <>
-                                                <div className="col-12">
+                                                <div className="col-md-12">
                                                     <div className="row">
                                                         <div className="col-3"><img className="rounded-circle mt-1" src={a.foto} width={75} height={75} /></div>
                                                         <div className="col-5 mt-3"><b>{a.name}</b><p>{a.nickname}</p></div>

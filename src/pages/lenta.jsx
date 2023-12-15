@@ -16,10 +16,10 @@ const Lenta = () => {
                         <div className="row">
                             <div className="col-md-12">
                                 <div className="row">
-                                    <div className="col-md-8">
+                                    <div className="col-8">
                                         <img src="https://cdn5.sellbe.com/p57/s-57824/template/105461/Picture/insta_icon_logo.jpg" width="320" height={100} />
                                     </div>
-                                    <div className="col-md-4">
+                                    <div className="col-4">
                                         <div className="row">
                                             <div className="col-6"><a href="/like"><i class="fa-regular fa-heart fa-2x mt-4 lev text-dark"></i></a></div>
                                             <div className="col-6"><a href="/chat"><i class="fa-solid fa-bolt fa-2x mt-4 text-dark"></i></a></div>
@@ -32,7 +32,7 @@ const Lenta = () => {
                                     {
                                         photo.map((a) =>
                                             <>
-                                                <div className="col-md-3"><a href={a.href}><img className="rounded-circle" src={a.foto} width={100} height={100} /></a></div>
+                                                <div className="col-3"><a href={a.href}><img className="rounded-circle" src={a.foto} width={100} height={100} /></a></div>
                                             </>
                                         )
                                     }
@@ -44,13 +44,13 @@ const Lenta = () => {
                                     <>
                                         <div className="col-md-12">
                                             <div className="row">
-                                                <div className="col-md-2">
+                                                <div className="col-2">
                                                     <a href={f.profile}><img className="rounded-circle mt-2" src={f.foto} width={50} height={50} /></a>
                                                 </div>
-                                                <div className="col-md-8">
+                                                <div className="col-8">
                                                     <h3 className="text-dark mt-3">{f.name}</h3>
                                                 </div>
-                                                <div className="col-md-2">
+                                                <div className="col-2">
                                                     <i data-bs-toggle="modal" data-bs-target="#exampleModal" class="fa-solid fa-bars fa-2x mt-3 text-dark"></i>
                                                 </div>
                                             </div>
@@ -58,12 +58,12 @@ const Lenta = () => {
                                         <div className="col-md-12 mt-2">
                                             <img src={f.publi} width={434} height={524} />
                                         </div>
-                                        <div className="col-md-10">
+                                        <div className="col-10">
                                             <i class="fa-regular fa-heart fa-2x mt-3"></i>
                                             <i class="fa-regular fa-comment fa-2x mt-3"></i>
                                             <i class="fa-regular fa-paper-plane fa-2x mt-3"></i>
                                         </div>
-                                        <div className="col-md-2 text-center">
+                                        <div className="col-2 text-center">
                                             <i class="fa-regular fa-bookmark fa-2x mt-3"></i>
                                         </div>
                                         <p><b>Нравится:</b> 5325</p>

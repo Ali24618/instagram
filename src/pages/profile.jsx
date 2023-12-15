@@ -47,10 +47,10 @@ const Profile = () => {
 
                     <div className="container">
                         <div className="row">
-                            <div className="col-4 fixed-bottom border border-dark sez">
+                            <div className="col-md-4 fixed-bottom border border-dark sez">
                                 <Navbar />
                             </div>
-                            <div className="col-4 border border-dark ali">
+                            <div className="col-md-4 border border-dark ali">
                                 <div className="row">
                                     <div className="col-12">
                                         <div className="row">
@@ -62,10 +62,10 @@ const Profile = () => {
                                     </div>
                                     <div className="col-3 mt-3"><img className="rounded-circle" src={user.avatar} width={70} height={70} />
                                         <p><b>{user.nickname}</b></p></div>
-                                    <div className="col-3 mt-3 que"><b>6</b><p>Публикации</p></div>
-                                    <div className="col-3 mt-3 que"><a className="soul" href="/bredpitt"><b>5</b><p>Подписчики</p></a></div>
-                                    <div className="col-3 mt-3 que"><a className="soul" href="/bredpitt"><b>5</b><p>Подписки</p></a></div>
-                                    <div className="col-12 mt-2">
+                                    <div className="col-3 mt-4 que"><b>6</b><p>Публикации</p></div>
+                                    <div className="col-3 mt-4 que"><a className="soul" href="/bredpitt"><b>5</b><p>Подписчики</p></a></div>
+                                    <div className="col-3 mt-4 que"><a className="soul" href="/bredpitt"><b>5</b><p>Подписки</p></a></div>
+                                    <div className="col-md-12 text-center">
                                         <div className="row">
                                             <div className="col-5 mt-1">
                                                 <a className="btn btn-white border" href="/editor"><b>Редактировать</b></a>
@@ -83,14 +83,14 @@ const Profile = () => {
                                         </div>
                                     </div>
 
-                                    <div className="col-12">
+                                    <div className="col-md-12">
                                         <b><small>Описание</small></b>
                                         <p><small><small>{user.description}</small></small></p>
                                     </div>
 
                                     <div class="collapse" id="collapseExample">
                                         <div class="card card-body border-0">
-                                            <div className="col-12 mt-2">
+                                            <div className="col-md-12 mt-2">
                                                 <div className="row">
                                                     <div className="col-4 text-center border rounded p-2">
                                                         <img className="rounded-circle" src="https://www.film.ru/sites/default/files/people/1455579-884296.jpg" width={100} height={100} />
@@ -137,7 +137,7 @@ const Profile = () => {
                                     </div>
                                     <div class="tab-content" id="myTabContent">
                                         <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
-                                            <div className="col-12">
+                                            <div className="col-md-12">
                                                 <div className="row">
                                                     {posts.length > 0 ?
                                                         <>
@@ -155,7 +155,7 @@ const Profile = () => {
                                                     }
                                                 </div>
                                             </div>
-                                            <div className="col-12">
+                                            <div className="col-md-12">
                                                 <div className="row">
                                                     {posts.length > 0 ?
                                                         <>
@@ -177,22 +177,22 @@ const Profile = () => {
                                         </div>
 
                                         <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
-                                            <div className="col-12">
+                                            <div className="col-md-12">
                                                 <div className="row">
-                                                    <div className="col-4">
+                                                    <div className="col-md-4">
                                                         <iframe width="152" height="250" src="https://www.youtube.com/embed/V1L0CTaTGRo"></iframe>
                                                     </div>
-                                                    <div className="col-4">
+                                                    <div className="col-md-4">
                                                         <iframe width="152" height="250" src="https://www.youtube.com/embed/V_Kg8uNTnDU"></iframe>
                                                     </div>
-                                                    <div className="col-4">
+                                                    <div className="col-md-4">
                                                         <iframe width="142" height="250" src="https://www.youtube.com/embed/OPIRjka5xdw"></iframe>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
-                                            <div className="col-12 text-center mt-5">
+                                            <div className="col-md-12 text-center mt-5">
                                                 <i class="fa-solid fa-house-user fa-5x mt-5"></i>
                                                 <p><b><h4><b>Фото и видео с вами</b></h4></b></p>
                                                 <small><small><small>Здесь показываются фото и видео на которых вас отметили</small></small></small>
